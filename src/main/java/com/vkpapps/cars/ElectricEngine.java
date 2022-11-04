@@ -1,14 +1,11 @@
 package com.vkpapps.cars;
 
 
-import com.vkpapps.app.analytics.AnalyticsService;
 import javax.inject.Inject;
+import lombok.RequiredArgsConstructor;
 
+@RequiredArgsConstructor(onConstructor = @__(@Inject))
 public class ElectricEngine implements Engine{
-    @Inject
-    public ElectricEngine(){
-
-    }
     @Override
     public void start() {
         System.out.println("ElectricEngine started");

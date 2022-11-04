@@ -1,7 +1,6 @@
 package com.vkpapps.app;
 
 import com.vkpapps.ApplicationScope;
-import com.vkpapps.app.analytics.AnalyticsModule;
 import com.vkpapps.cars.VehicleComponent;
 import dagger.Component;
 
