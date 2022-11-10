@@ -1,7 +1,7 @@
 # Dagger 2
 Dagger is a fully static, compile-time dependency injection framework for Java, Kotlin, and Android.
 
-## Add dagger 2 dependencies
+#### Add dependencies
  ```gradle
  plugins {
     id 'java'
